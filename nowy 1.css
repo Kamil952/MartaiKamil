@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+    background-image: url('floral-border-left.png'), url('floral-border-right.png');
+    background-position: left top, right top;
+    background-repeat: repeat-y;
+    font-family: 'Monterey', cursive, Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: #5a4a42;
+}
+
+header {
+    font-family: 'Monterey', cursive;
+    font-size: 2.5em;
+    color: #b3875a;
+    padding: 20px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.photo-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.photo-container img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
